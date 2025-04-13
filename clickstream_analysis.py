@@ -256,7 +256,7 @@ def Purchase_Prediction_form():
                         'order':[order],'country':[country],
                         'page1_main_category':[page1_main_category],'page2_clothing_model':[page2_clothing_model],
                         'colour':[colour],'location':[location],'model_photography':[model_photography],
-                       'page':[page]})
+                       'page':[page],'price':[45]})
 
           
             result=classification_model.predict(df)
