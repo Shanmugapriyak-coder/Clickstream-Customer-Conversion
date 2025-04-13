@@ -176,8 +176,8 @@ def filter_countries_func(df):
 # )
 # from data_preprocessing import country_mapping, page1, colors,locations,model_photo,clothing_model
 
-regresion_model = joblib.load(r"C:\Users\MY Laptop\Desktop\guvi_class\Customer Conversion Analysis\regression_model.pkl")
-classification_model = joblib.load(r"C:\Users\MY Laptop\Desktop\guvi_class\Customer Conversion Analysis\classification_model.pkl")
+regresion_model = joblib.load(r"regression_model.pkl")
+classification_model = joblib.load(r"classification_model.pkl")
 
 
 def intro():
