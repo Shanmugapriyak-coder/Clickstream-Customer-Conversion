@@ -174,7 +174,7 @@ from custom_function import (
     replace_clothing_photo_func,
     filter_countries_func
 )
-from data_preprocessing import country_mapping, page1, colors,locations,model_photo,clothing_model
+from custom_function import country_mapping, page1, colors,locations,model_photo,clothing_model
 
 regresion_model = joblib.load(r"regression_model.pkl")
 classification_model = joblib.load(r"classification_model.pkl")
